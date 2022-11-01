@@ -12,12 +12,12 @@ node server.js
 ### Node.js MongoDB Rest CRUD API overview
 ```
 Methods             Urls                Actions
-GET             api/products               get all Tutorials
-GET             api/products/:id           get Tutorial by id
-POST            api/products               add new Tutorial
-PUT             api/products/:id           update Tutorial by id
-DELETE          api/products/:id           remove Tutorial by id
-DELETE          api/products               remove all Tutorials
-GET             api/products/published     find all published Tutorials
-GET             api/products?title=[kw]    find all Tutorials which title contains 'kw'
+GET             api/products               get all Products
+GET             api/products/:id           get Product by id
+POST            api/products               add new Product
+PUT             api/products/:id           update Product by id
+DELETE          api/products/:id           remove Product by id
+DELETE          api/products               remove all Products
+GET             api/products/published     find all published Products
+GET             api/products?title=[kw]    find all Products which title contains 'kw'
 ```
