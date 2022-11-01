@@ -19,5 +19,5 @@ PUT             api/products/:id           update Product by id
 DELETE          api/products/:id           remove Product by id
 DELETE          api/products               remove all Products
 GET             api/products/published     find all published Products
-GET             api/products?title=[kw]    find all Products which title contains 'kw'
+GET             api/products?title=[samsung]    find all Products which title contains 'samsung'
 ```
